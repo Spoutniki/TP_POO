@@ -2,6 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Panier {
-    private List<Produit> ListeProduit = new ArrayList<>();
+    private List<ObjetPanier> ListeObjetPanier = new ArrayList<>();
 
 }
