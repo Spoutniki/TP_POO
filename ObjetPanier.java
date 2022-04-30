@@ -30,5 +30,10 @@ public class ObjetPanier {
         return quantite = quantite - 1;
     }
 
+    public Float getPrixProduit() {
+        return quantite * this.produit.getPrix() ;
+    }
+
+
 
 }

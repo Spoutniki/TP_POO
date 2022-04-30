@@ -1,8 +1,8 @@
 public class Produit {
     private int reference;
     private String nom;
-    private int prix;
-    
+    private float prix;
+
     public int getReference() {
         return reference;
     }
@@ -15,7 +15,7 @@ public class Produit {
     public void setNom(String nom) {
         this.nom = nom;
     }
-    public int getPrix() {
+    public float getPrix() {
         return prix;
     }
     public void setPrix(int prix) {
